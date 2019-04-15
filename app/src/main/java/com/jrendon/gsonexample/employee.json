@@ -4,6 +4,16 @@
     "mCountry": "Canada"
   },
   "mAge": 25,
+  "mFamily": [
+    {
+      "mAge": 24,
+      "mRole": "Wife"
+    },
+    {
+      "mAge": 2,
+      "mRole": "Daugther"
+    }
+  ],
   "mFirstName": "Toto",
   "mMail": "toto@gson.com"
 }
