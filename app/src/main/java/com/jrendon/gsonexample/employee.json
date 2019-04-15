@@ -1,4 +1,8 @@
 {
+  "address": {
+    "mCity": "Montreal",
+    "mCountry": "Canada"
+  },
   "mAge": 25,
   "mFirstName": "Toto",
   "mMail": "toto@gson.com"

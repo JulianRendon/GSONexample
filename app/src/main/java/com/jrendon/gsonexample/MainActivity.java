@@ -15,12 +15,13 @@ public class MainActivity extends AppCompatActivity {
         Gson gson = new Gson();
 
         /*
-        Employee employee = new Employee("Toto", 25, "toto@gson.com");
+        Address address = new Address("Canada", "Montreal");
+
+        Employee employee = new Employee("Toto", 25, "toto@gson.com", address);
         String json = gson.toJson(employee);
         */
 
-        String json = "{\"mAge\": 25,\"mFirstName\": \"Toto\",\"mMail\": \"toto@gson.com\"}";
+        String json = "{\"address\":{\"mCity\":\"Montreal\",\"mCountry\":\"Canada\"},\"mAge\":25,\"mFirstName\":\"Toto\",\"mMail\":\"toto@gson.com\"}";
         Employee employee = gson.fromJson(json, Employee.class);
-
     }
 }
